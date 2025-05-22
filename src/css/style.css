@@ -1,0 +1,20 @@
+/* Variables and Utils */
+@import './partials/variables.css';
+@import './partials/utils.css';
+
+/* Colors and Typography */
+@import './partials/colors.css';
+@import './partials/type.css';
+
+/* Layout and Components */
+@import './partials/menu.css';
+@import './partials/tabs.css';
+@import './partials/quicklinks.css';
+@import './partials/graphs.css';
+
+/* Animations and Effects */
+@import './partials/animations.css';
+@import './partials/waves.css';
+
+/* Reset and Base Styles */
+@import './partials/reset.css';

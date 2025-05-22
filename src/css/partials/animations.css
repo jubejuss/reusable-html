@@ -1,0 +1,83 @@
+/* Fade animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+/* Slide animations */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Scale animations */
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Animation utility classes */
+.animate-fade-in {
+  animation: fadeIn var(--transition-normal) ease-in-out;
+}
+
+.animate-fade-out {
+  animation: fadeOut var(--transition-normal) ease-in-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight var(--transition-normal) ease-in-out;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft var(--transition-normal) ease-in-out;
+}
+
+.animate-scale-in {
+  animation: scaleIn var(--transition-normal) ease-in-out;
+}
+
+/* Hover animations */
+.hover-scale {
+  transition: transform var(--transition-fast);
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.hover-rotate {
+  transition: transform var(--transition-fast);
+}
+
+.hover-rotate:hover {
+  transform: rotate(5deg);
+} 
