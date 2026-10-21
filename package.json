@@ -16,7 +16,7 @@
     "postcss-import": "^16.1.0",
     "postcss-nested": "^7.0.2",
     "postcss-sorting": "^9.1.0",
-    "vite": "^6.2.0"
+    "vite": "^6.4.4"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
